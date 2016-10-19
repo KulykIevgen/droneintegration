@@ -22,7 +22,7 @@ void MaxUnitTest::findMax_data()
 
     QTest::newRow("one") << 1 << 10 << 10;
     QTest::newRow("two") << 0 << -10 << 0;
-    QTest::newRow("three") << 0 << 0 << 0;
+    QTest::newRow("three") << 1 << 1 << 1;
 }
 
 MaxUnitTest::MaxUnitTest()
