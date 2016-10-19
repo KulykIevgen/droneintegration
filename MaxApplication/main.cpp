@@ -3,7 +3,7 @@
 
 #include "maxfinder.h"
 
-int main(int argc, char *argv[])
+int main(void)
 {
     //QCoreApplication a(argc, argv);
     std::cout << MaxFinder::findMax(1,0) << std::endl;
