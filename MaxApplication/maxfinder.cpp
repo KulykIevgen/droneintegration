@@ -12,7 +12,7 @@ int MaxFinder::findMax(int a, int b)
 
 int MaxFinder::findMaxInVector(const std::vector<int>& data)
 {
-    return *std::max(data.cbegin(),data.cend());
+    return *std::max(data.begin(),data.end());
 }
 
 
