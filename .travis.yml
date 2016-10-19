@@ -10,6 +10,9 @@ before_install:
 language: cpp
 compiler:
   - gcc
+
+notifications:
+  slack: makitra:JuMjHmE6iSwV29ZGb0CfwQuA
   
 script:
   - cd ./MaxApplication
